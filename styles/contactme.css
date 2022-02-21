@@ -1,0 +1,54 @@
+.get__in__touch__margin{
+    max-width: 1255px;
+    margin: 0 auto;
+    
+}
+
+.get__in__touch__section{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 300px;
+   
+}
+
+.get__in__touch__section p:nth-child(1){
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+
+.get__in__touch__section p{
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.contactme{
+    background-color: #1a8b9d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    width: 150px;
+    height: 46px;
+    background: #1A8B9D;
+    border-radius: 5px;
+}
+
+.socialmediachannels{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+

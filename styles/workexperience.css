@@ -1,0 +1,95 @@
+.work__experience_margin {
+  max-width: 1255px;
+  margin: 0 auto;
+}
+
+.work__experience_section {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 108px 0;
+}
+
+.work__experience__header {
+  line-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 43px;
+}
+
+.work__experience__header::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  color: #1a8b9d;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #1a8b9d;
+}
+
+.work__experience__bar {
+  width: 100px;
+  height: 6px;
+  color: #1a8b9d;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #1a8b9d;
+}
+
+.work__experience__companies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.work__experience__companies > div {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  height: 310px;
+}
+
+.work__experience__companies > div:nth-child(2n) {
+  text-align: right;
+  justify-self: flex-end;
+  border-left: solid 1px #1a8b9d;
+}
+
+.work__experience__companies > div:nth-child(1) {
+  border-bottom: solid 1px #1a8b9d;
+}
+
+.work__experience__companies > div:nth-child(2) {
+ border-bottom: solid 1px #1a8b9d;
+}
+
+.work__experience__companies .google {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.work__experience__details h3 {
+  padding: 20px 0;
+  white-space: nowrap;
+}
+
+.work__experience__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  border: 10px solid #1a8b9d;
+  border-radius: 5px;
+  box-sizing: content-box;
+  padding: 10px;
+}
+
+.work__experience__companies img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
